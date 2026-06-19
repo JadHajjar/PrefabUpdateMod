@@ -18,14 +18,14 @@ Use the dropdown and button in the Options page to access the update tool.
   <Screenshot Value="Properties/Screenshot_01.jpg" />
   <Screenshot Value="Properties/Screenshot_02.jpg" />
   <Tag Value="Code Mod" />
-  <ModVersion Value="1.1.0" />
+  <ModVersion Value="1.1.1" />
   <GameVersion Value="*" />
   <ChangeLog>
-# v1.1.0
-## Hotfix
-* Fixed asset packs not showing in the dropdown.
-* Packs now use their correct display name.
+# v1.1.1
+## Changes
+* Code cleanup, added github repo link.
 </ChangeLog>
   <ExternalLink Type="discord" Url="https://discord.gg/E4k8ZEtRxd" />
   <ExternalLink Type="patreon" Url="https://www.patreon.com/tdwsvillage" />
+  <ExternalLink Type="github" Url="https://github.com/JadHajjar/PrefabUpdateMod" />
 </Publish>
