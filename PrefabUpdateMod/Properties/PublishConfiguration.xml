@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Publish>
+  <ModId Value="105801" />
+  <DisplayName Value="Asset Update Mod" />
+  <ShortDescription Value="Easily update all placed buildings and assets in your city from any asset pack." />
+  <LongDescription>
+# Asset Update Mod
+Easily update all placed buildings and assets in your city from any asset pack.
+
+
+
+
+Best to be used when a pack gets a major update, this will force-update all assets in your city from that pack.
+
+Use the dropdown and button in the Options page to access the update tool.
+</LongDescription>
+  <Thumbnail Value="Properties/Thumbnail.png" />
+  <Screenshot Value="Properties/Screenshot_01.jpg" />
+  <Screenshot Value="Properties/Screenshot_02.jpg" />
+  <Tag Value="Code Mod" />
+  <ModVersion Value="1.1.0" />
+  <GameVersion Value="*" />
+  <ChangeLog>
+# v1.1.0
+## Hotfix
+* Fixed asset packs not showing in the dropdown.
+* Packs now use their correct display name.
+</ChangeLog>
+  <ExternalLink Type="discord" Url="https://discord.gg/E4k8ZEtRxd" />
+  <ExternalLink Type="patreon" Url="https://www.patreon.com/tdwsvillage" />
+</Publish>

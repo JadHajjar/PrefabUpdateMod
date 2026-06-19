@@ -1,0 +1,6 @@
+{
+  "ModName": "Asset Update Mod",
+  "ThumbnailUrl": "https://imgur.com/4xqiLGh.png",
+  "PublishConfigurationFile": "Properties\\PublishConfiguration.xml",
+  "ChangelogFile": "Changelog.json"
+}
