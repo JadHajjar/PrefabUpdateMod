@@ -1,6 +1,19 @@
 [
   {
     "Stable": true,
+    "Version": "1.1.2",
+    "Date": "2026-06-21",
+    "ChangeGroups": [
+      {
+        "Name": "Changes",
+        "Changes": [
+          "Fixed the mod not showing up in the options menu."
+        ]
+      }
+    ]
+  },
+  {
+    "Stable": true,
     "Version": "1.1.1",
     "Date": "2026-06-19",
     "ChangeGroups": [

@@ -12,11 +12,11 @@ namespace PrefabUpdateMod
 
 		public void OnLoad(UpdateSystem updateSystem)
 		{
+			updateSystem.UpdateAt<PrefabUpdateModSystem>(SystemUpdatePhase.MainLoop);
+
 			Settings = new Setting(this);
 			Settings.RegisterInOptionsUI();
 			GameManager.instance.localizationManager.AddSource("en-US", new LocaleEN(Settings));
-
-			updateSystem.UpdateAt<PrefabUpdateModSystem>(SystemUpdatePhase.MainLoop);
 
 			AssetDatabase.global.LoadSettings(nameof(PrefabUpdateMod), Settings, new Setting(this));
 		}

@@ -34,9 +34,9 @@ namespace PrefabUpdateMod
 
 		[Exclude]
 		[SettingsUISection(kSection, kDropdownGroup)]
-		public bool Button { set => World.DefaultGameObjectInjectionWorld.GetExistingSystemManaged<PrefabUpdateModSystem>().UpdateAssets(SelectedPack); }
+		public bool Button { set => World.DefaultGameObjectInjectionWorld.GetExistingSystemManaged<PrefabUpdateModSystem>()?.UpdateAssets(SelectedPack); }
 
-		public DropdownItem<int>[] GetIntDropdownItems() => World.DefaultGameObjectInjectionWorld.GetExistingSystemManaged<PrefabUpdateModSystem>().GetAssetPacks();
+		public DropdownItem<int>[] GetIntDropdownItems() => World.DefaultGameObjectInjectionWorld.GetExistingSystemManaged<PrefabUpdateModSystem>()?.GetAssetPacks() ?? new DropdownItem<int>[0];
 
 		public override void SetDefaults()
 		{
